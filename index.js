@@ -9,3 +9,11 @@ function writeCards(names,event) {
 }
 
 writeCards(["Ada", "Brendan", "Ali"], "birthday");
+
+function countDown(number){
+  while(number >= 0 ){
+    console.log(number)
+    number--;
+  }
+}
+countDown(10);
