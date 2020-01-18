@@ -1,8 +1,9 @@
 // Code your solutions in this file
 
 function writeCards(cards,event) {
+  let result=[];
   for (let i = 0; i < cards.length; i++) {
-    console.log(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
+    result.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
   }
 
 }
